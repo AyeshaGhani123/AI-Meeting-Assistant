@@ -1,7 +1,8 @@
 {
-  "build": {
-    "env": {
-      "PYTHON_VERSION": "3.12"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/app.py"
     }
-  }
+  ]
 }
