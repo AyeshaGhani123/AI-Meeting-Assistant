@@ -2787,21 +2787,19 @@ with gr.Blocks(
 # 43. START GRADIO
 # ============================================================
 
-if __name__ == "__main__":
+print("=" * 70)
 
-    print("=" * 70)
+print(
+    "STARTING GRADIO"
+)
 
-    print(
-        "STARTING GRADIO"
-    )
+print("=" * 70)
 
-    print("=" * 70)
+print(
+    "Public Gradio link will appear below."
+)
 
-    print(
-        "Public Gradio link will appear below."
-    )
-
-    demo.launch(
-        share=True,
-        debug=True
-    )
+demo.launch(
+    share=True,
+    debug=True
+)
